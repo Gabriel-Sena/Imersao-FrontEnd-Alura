@@ -1,0 +1,14 @@
+- O HTML é a estrutura de toda página web, o esqueleto. (Esqueleto)
+- O CSS dá a beleza, a estilização, as cores e as animações. (Corpo)
+- O JS faz com que a tela interaja com o usuário atavés do JS. (Cérebro)
+
+- Semântica: a tag dizer exatamente qual é a função.
+
+- Espassamento do elemento com relação a ele mesmo.
+
+- position: fixed; independente do que for o elemento estara fixo na página.
+
+- (.logo, img:) a estilização vai para a classe logo e para os elementos img
+  (.logo img:) a estilização vai para a classe logo que está dentro do elemento img
+
+- duas classes em um elemento só (<span class="text title"></span>): é usada quando temos pontos em comum entre os elementos
