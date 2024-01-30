@@ -12,3 +12,30 @@
   (.logo img:) a estilização vai para a classe logo que está dentro do elemento img
 
 - duas classes em um elemento só (<span class="text title"></span>): é usada quando temos pontos em comum entre os elementos
+
+- qualquer medida diferente de px serve para responsividade
+
+- display: grid; divide o conteúdo em grade considerando a fração (cada grade que for dividir) total do conteúdo e os espaços da grade
+
+- grid-template-columns: 1fr 1fr 1fr 1fr 1fr; representa em quantas colunas vai dividir cada card (no exemplo acima vai dividir em 5 colunas)
+
+- chama o arquivo js no final do código para que se ouver algum problema nesse arquivo não interfira no carregamento da página 
+
+- Document Object Model (DOM) Modelo de Objeto de Documento: é uma representação de uma árvore do documento HTML que vai ter todos os elementos que o compoe
+
+- getElementById: funciona pra Id
+- querySelector: funciona pra classe
+
+- evento é tudo que tem interação na tela, ex: clique no botão, carregamento da tela, quando preciona a tecla, etc
+
+- quando usa ==, está vendo se os dois valores são iguais
+quando usa ===, vê se os valores são iguais e do mesmo tipo
+
+- fetch: usado pra consumir/fazer requisições de api
+
+- then = promises (programação assícrona): usa pra fazer requisição em api, fazer leitura em arquivos
+
+- .then((response) => response.json()): pega a resposta e converte em json pra poder trabalhar
+- .then((result) => displayResults(result)): pega o resultado 
+
+- function displayResults(): função pra mostrar os resultados
