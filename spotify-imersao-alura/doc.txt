@@ -39,3 +39,7 @@ quando usa ===, vê se os valores são iguais e do mesmo tipo
 - .then((result) => displayResults(result)): pega o resultado 
 
 - function displayResults(): função pra mostrar os resultados
+
+- jsx: mistura do js com html
+
+- 
